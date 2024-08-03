@@ -14,6 +14,17 @@ export default function Timeline() {
                 <div className={styles.timeline}>
                     <div className={styles.timelineCard}>
                         <div className={styles.imgContainer}>
+                        <img src="timeline/pic-2024.png" />
+                        </div>
+                        <div className={styles.leftContainer}>
+                            <header className={styles.cardHeader}>QuHacks 2024</header>
+                            <div className={styles.textContainer}>
+                                Held at the Johns Hopkins University Applied Physics Laboratory on December 16th, 2023. There were 175 attendees this year with 150 submitting projects! We held workshops on Intro to Python, Web Development, and Cryptography during the event, and ended the event with another typeracer competition.<br /><br />
+                            </div>
+                        </div>
+                    </div>
+                    <div className={styles.timelineCard}>
+                        <div className={styles.imgContainer}>
                         <img src="timeline/pic-2023.jpg" />
                         </div>
                         <div className={styles.leftContainer}>
