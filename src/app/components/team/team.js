@@ -11,7 +11,8 @@ export default function TeamSection() {
         ["Aditri Maiti", "Graphic Design", "headshots/aditri_headshot.jpg"],
         ["Anjali Vallabhaneni", "Graphic Design", "headshots/anjali_headshot.jpg"],
         ["Jiwon Kim", "Graphic Design", "headshots/jiwon_headshot.png"],
-        
+
+        ["Barry Chen", "Sponsor", "headshots/barry_headshot.jpg"],
         ["Kevin Yue", "Sponsor", "headshots/kevin_headshot.png"],
         ["Rana Cherukuri", "Sponsor", "headshots/rana_headshot.png"],
 
