@@ -14,7 +14,6 @@ export default function TeamSection() {
         
         ["Kevin Yue", "Sponsor", "headshots/kevin_headshot.png"],
         ["Rana Cherukuri", "Sponsor", "headshots/rana_headshot.png"],
-        ["Vinay Vimalkumar", "Sponsor", "headshots/vinay_headshot.png"],
 
         ["Sai Chandra", "Website Lead", "headshots/sai_headshot.jpg"],
         ["Mark Shi", "Website", "headshots/mark_headshot.jpg"],
