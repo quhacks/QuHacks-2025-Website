@@ -2,13 +2,13 @@
   --background: #000000;
   --background-darker: #3A0CA3;
   --text: white;
-  --title-glow: #4361EE;
+  --title-glow: #4859EF;
   --text-accent: #4CC9F0;
   --image-hue-overlay: rgba(37, 16, 100, 0.476);
   /* --dark-blue-accent: #00333f; */
   --scroll-primary: rgb(15, 15, 16);
   --scroll-accent: #ab9205;
-  --background-accent: #4895EF;
+  --background-accent: #3F37C9;
   /* Some potentially useful colors if needed */
   --nc-font-sans: 'Fira Code', monospace;
   --nc-font-mono: 'Fira Code', monospace;
@@ -90,7 +90,7 @@ select {
 
 .link:hover, a:hover {
   cursor: pointer;
-  background-color: var(--text-accent);
+  background-color: var(--title-glow);
   color: white;
 }
 
@@ -119,12 +119,12 @@ button:disabled {
 }
 
 .btn-primary:hover {
-  background-color: var(--text-accent);
+  background-color: var(--title-glow);
   color: var(--text);
 }
 
 .btn-primary:disabled {
-  background-color: var(--text-accent);
+  background-color: var(--title-glow);
   color: var(--text);
 }
 

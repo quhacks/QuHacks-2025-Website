@@ -19,9 +19,10 @@ export default function Footer() {
         <div className={styles.lastcol}>
             <h3 className={styles.sectionheader}>Contributors</h3>
             <p className={styles.contribs}>
+            Sai Siddhish Chandra Sekaran<br/>
+            Aryan Sharma<br/>
             Ramy Kaddouri<br/>
             Nicole Luo<br/>
-            Sai Siddhish Chandra Sekaran
             </p>
         </div>
     </main>
