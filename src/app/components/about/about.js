@@ -7,8 +7,8 @@ export default function AboutSection() {
             <div className={styles.aboutInfoContainer}>
                 <h1 className={styles.title}>About Us</h1>
 
-                <p className={styles.text}>QuHacks is a day-long hackathon  <font color="green">by students, for students.</font> Join us for a day of <font color="green">creation, innovation, and fun</font> with fellow middle and high schoolers interested in coding. From seasoned coding veterans to first-time programmers,  <font color="green">all are welcome to join</font>.
-                    Discover your ability to create change by developing technology to solve real-world problems, attend workshops, and meet some new friends. <font color="green">We can't wait to see you there!</font>
+                <p className={styles.text}>QuHacks is a day-long hackathon  <font color="#B5179E">by students, for students.</font> Join us for a day of <font color="#B5179E">creation, innovation, and fun</font> with fellow middle and high schoolers interested in coding. From seasoned coding veterans to first-time programmers,  <font color="#B5179E">all are welcome to join</font>.
+                    Discover your ability to create change by developing technology to solve real-world problems, attend workshops, and meet some new friends. <font color="#B5179E">We can't wait to see you there!</font>
                 </p>
                 <Link className={styles.learnMore} href="/timeline"> Learn more... </Link>
             </div>

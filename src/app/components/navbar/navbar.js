@@ -52,6 +52,7 @@ export default function NavBar() {
       {/* <span className={`link ${styles.navlink}`} onClick={() => scrollIntoViewWithOffset("#schedule",100)}>Schedule</span> */}
       <span className={`link ${styles.navlink}`} onClick={() => scrollIntoViewWithOffset("#faq",100)}>FAQ</span>
       <span className={`link ${styles.navlink}`} onClick={() => scrollIntoViewWithOffset("#team",100)}>Team</span>
+      <span className={`link ${styles.navlink}`} onClick={() => scrollIntoViewWithOffset("timeline",100)}>Timeline</span>
       <Link className={`link ${styles.navlink}`} rel="noreferrer noopener" target='_blank' href="https://discord.gg/qYND4HeAdH">Discord</Link>
     </nav>
     {mobLinksShown ? 

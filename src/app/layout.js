@@ -8,7 +8,7 @@ const inter = Inter({ subsets: ['latin'] })
 
 export const metadata = {
   title: 'QuHacks 2025',
-  description: "MD's largest annual student run hackathon!",
+  description: "MD's largest annual student led hackathon!",
   metadataBase: new URL('https://quhacks.tech'),
 }
 
