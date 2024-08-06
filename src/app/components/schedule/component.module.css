@@ -3,7 +3,7 @@
     gap: 2rem;
     padding: 3rem;
     width: 100%;
-    background-color: #002700;
+    background-color: #100230;
     border-left: 0.3rem solid var(--text-accent);
     margin: 0 3rem;
 }
@@ -14,7 +14,7 @@
     font-weight: bold;
     font-family: monospace;
     color: #fff;
-    text-shadow: 0 0 10px #005800, 0 0 15px #005800, 0 0 20px #005800, 0 0 25px #005800, 0 0 30px #005800, 0 0 35px #005800, 0 0 40px #005800;
+    text-shadow: 0 0 10px #3F37C9, 0 0 15px #3F37C9, 0 0 20px #3F37C9, 0 0 25px #3F37C9, 0 0 30px #3F37C9, 0 0 35px #3F37C9, 0 0 40px #3F37C9;
     text-decoration: underline var(--text-accent);
     text-decoration-thickness: 0.25rem;
 }
@@ -22,27 +22,27 @@
 .table {
     margin: auto;
     font-size: 1.15vw;
-    color: #FFF0EA;
+    color: #4CC9F0;
     border-collapse: collapse;
     width: 100%;
 }
 
 .thead {
-    border-bottom: 2px solid #FFF0EA;
+    border-bottom: 2px solid #4CC9F0;
     padding: 1vh 2vw;
 
 }
 
 .td {
-    border: 1px solid #006600;
+    border: 1px solid #4CC9F0;
     text-align: left;
     padding:   1vw;
     font-size: 2.75vh;
 }
 
 .th {
-    color: #00c200;
-    border-bottom: 2px solid #FFF0EA;
+    color: #4CC9F0;
+    border-bottom: 2px solid #4CC9F0;
     padding: 1vh 2vw;
     text-align: left;
     padding: .5vw;
@@ -56,7 +56,7 @@
         gap: 2rem;
         padding: 1rem;
         width: 100%;
-        background-color: #002700;
+        background-color: #4CC9F0;
         border-left: 0.3rem solid var(--text-accent);
         margin: 0;
     }
@@ -65,7 +65,7 @@
         font-size: 2rem;
     }
     .th {
-        color: #00c200;
+        color: #4cc9f0;
         border-bottom: 2px solid #FFF0EA;
         padding: 1vh 2vw;
         text-align: left;

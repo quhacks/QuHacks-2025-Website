@@ -63,16 +63,10 @@ export default function ScheduleSection() {
                         <td className={styles.td}>Lunch</td>
                     </tr>
                     <tr>
-                        <td className={styles.td}>3:00 PM - 3:30 PM</td>
-                        <td className={styles.td}></td>
-                        <td className={styles.td}></td>
-                        <td className={styles.td}>Quad Education Workshop</td>
-                    </tr>
-                    <tr>
                         <td className={styles.td}>3:30 PM - 4:00 PM</td>
                         <td className={styles.td}></td>
                         <td className={styles.td}></td>
-                        <td className={styles.td}>Intro to Cryptography</td>
+                        <td className={styles.td}>The Basics of OSINT</td>
                     </tr>
                     <tr>
                     <td className={styles.td}>4:00 PM - 4:30 PM</td>

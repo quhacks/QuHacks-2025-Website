@@ -72,9 +72,9 @@ export default function Home() {
       <div className={styles.content} id="about">
         <AboutSection></AboutSection>
       </div>
-      {/* <div className={styles.content} id="schedule">
+      <div className={styles.content} id="schedule">
         <ScheduleSection></ScheduleSection>
-      </div> */}
+      </div>
       <div className={styles.content} id="faq">
         <Faq></Faq>
       </div>
