@@ -1,12 +1,14 @@
 :root {
   --background: #000000;
-  --background-darker: #002700;
+  --background-darker: #3A0CA3;
   --text: white;
-  --text-accent: #00c200;
-  --dark-blue-accent: #00333f;
+  --title-glow: #4361EE;
+  --text-accent: #4CC9F0;
+  --image-hue-overlay: rgba(37, 16, 100, 0.476);
+  /* --dark-blue-accent: #00333f; */
   --scroll-primary: rgb(15, 15, 16);
   --scroll-accent: #ab9205;
-  --background-accent: #005800;
+  --background-accent: #4895EF;
   /* Some potentially useful colors if needed */
   --nc-font-sans: 'Fira Code', monospace;
   --nc-font-mono: 'Fira Code', monospace;
