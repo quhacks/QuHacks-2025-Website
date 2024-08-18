@@ -2,13 +2,13 @@
   --background: #000000;
   --background-darker: #3A0CA3;
   --text: white;
-  --title-glow: #4361EE;
-  --text-accent: #4CC9F0;
+  --title-glow: #7827db;
+  --text-accent: #e04cf0;
   --image-hue-overlay: rgba(37, 16, 100, 0.476);
   /* --dark-blue-accent: #00333f; */
   --scroll-primary: rgb(15, 15, 16);
   --scroll-accent: #ab9205;
-  --background-accent: #4895EF;
+  --background-accent: #b712eb;
   /* Some potentially useful colors if needed */
   --nc-font-sans: 'Fira Code', monospace;
   --nc-font-mono: 'Fira Code', monospace;
