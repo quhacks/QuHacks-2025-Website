@@ -8,6 +8,15 @@ export default function Sponsors() {
                 <p>Interested in sponsoring QuHacks this year? <a href="mailto:info@quhacks.tech">Contact us!</a></p>
             </div>
 
+            <div className={`${styles.tier} ${styles.gold}`}>
+                <h1 className={styles.tiername}>Gold</h1>
+                <div className={styles.row}>
+                    <a rel="noreferrer noopener" target='_blank' href="https://www.issi-software.com/">
+                        <img style={{backgroundColor: "white", border: "10px solid white", borderRadius: "8px"}} src="sponsors/issi.png" />
+                    </a>
+                </div>
+            </div>
+
             <div className={`${styles.tier} ${styles.silver}`}>
                 <h1 className={styles.tiername}>Silver</h1>
                 <div className={styles.row}>
@@ -28,6 +37,9 @@ export default function Sponsors() {
                     </a>
                     <a rel="noreferrer noopener" target='_blank' href="https://codehs.com/">
                         <img style={{backgroundColor: "white", border: "10px solid white", borderRadius: "8px"}} src="sponsors/codehs.png" />
+                    </a>
+                    <a rel="noreferrer noopener" target='_blank' href="https://www.desmos.com/">
+                        <img style={{backgroundColor: "white", border: "10px solid white", borderRadius: "8px"}} src="sponsors/desmos.png" />
                     </a>
                     <a rel="noreferrer noopener" target='_blank' href="https://www.desmos.com/">
                         <img style={{backgroundColor: "white", border: "10px solid white", borderRadius: "8px"}} src="sponsors/interview_cake.png" />
