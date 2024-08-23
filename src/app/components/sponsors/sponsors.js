@@ -29,7 +29,7 @@ export default function Sponsors() {
             <div className={`${styles.tier} ${styles.bronze}`}>
                 <h1 className={styles.tiername}>Bronze</h1>
                 <div className={styles.row}>
-                    <a rel="noreferrer noopener" target='_blank' href="https://www.wegmans.com/">
+                    <a rel="noreferrer noopener" target='_blank' href="https://1password.com/">
                         <img style={{backgroundColor: "white", border: "10px solid white", borderRadius: "8px"}} src="sponsors/1password.png" />
                     </a>
                     <a rel="noreferrer noopener" target='_blank' href="https://artofproblemsolving.com/">
@@ -41,10 +41,10 @@ export default function Sponsors() {
                     <a rel="noreferrer noopener" target='_blank' href="https://www.desmos.com/">
                         <img style={{backgroundColor: "white", border: "10px solid white", borderRadius: "8px"}} src="sponsors/desmos.png" />
                     </a>
-                    <a rel="noreferrer noopener" target='_blank' href="https://www.desmos.com/">
+                    <a rel="noreferrer noopener" target='_blank' href="https://www.interviewcake.com/">
                         <img style={{backgroundColor: "white", border: "10px solid white", borderRadius: "8px"}} src="sponsors/interview_cake.png" />
                     </a>
-                    <a rel="noreferrer noopener" target='_blank' href="https://www.wegmans.com/">
+                    <a rel="noreferrer noopener" target='_blank' href="https://gen.xyz/">
                         <img style={{backgroundColor: "white", border: "10px solid white", borderRadius: "8px"}} src="sponsors/xyz.png" />
                     </a>
                 </div>
