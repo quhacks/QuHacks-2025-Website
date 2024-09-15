@@ -19,7 +19,8 @@ export default function Timeline() {
                         <div className={styles.leftContainer}>
                             <header className={styles.cardHeader}>QuHacks 2024</header>
                             <div className={styles.textContainer}>
-                                Held at the Johns Hopkins University Applied Physics Laboratory on December 16th, 2023. Over 150 registrants attended and submitted amazing projects! During the event, we held workshops on Intro to Python, Web Development, and Cryptography, and ended the event with a typeracer competition.<br /><br />
+                                Held at the Johns Hopkins University Applied Physics Laboratory on December 16th, 2023. Our biggest event yet!
+                                Over 150 attendees submitted amazing projects to compete for prizes within AI, math, game dev, beginner, and advanced tracks! During the event, we held workshops teaching Python, web development, and cryptography, and ended with a Monkeytype competition as per tradition.
                             </div>
                         </div>
                     </div>
@@ -30,8 +31,8 @@ export default function Timeline() {
                         <div className={styles.leftContainer}>
                             <header className={styles.cardHeader}>QuHacks 2023</header>
                             <div className={styles.textContainer}>
-                                Held at Howard Community College on January 14th, 2023. There were 100+ registrants who submitted some great projects! During the event, workshops on Intro to Programming, AI, and Web Development were held. And just like last year's event (2021), there was a typeracer competition.<br /><br />
-                                *<em>There wasn't a QuHacks 2022 due to a postponement which shifted the event from December 2022 to January 2023. QuHacks 2022 was renamed to QuHacks 2023 to avoid confusion.</em>
+                                Held at Howard Community College on January 14th, 2023. There were 100+ registrants who submitted some great projects! During the event, workshops on programming fundamentals, AI, and web desmosevelopment were held. And just like last year's event (2021), there was a TypeRacer competition.<br /><br />
+                                <em>*There wasn't a QuHacks 2022 due to a postponement which shifted the event from December 2022 to January 2023. QuHacks 2022 was renamed to QuHacks 2023 to avoid confusion.</em>
                             </div>
                         </div>
                     </div>
@@ -42,7 +43,7 @@ export default function Timeline() {
                         <div className={styles.leftContainer}>
                             <header className={styles.cardHeader}>QuHacks 2021</header>
                             <div className={styles.textContainer}>
-                            Held virtually on December 18th, 2021. Even though this was a virtual event, it was still very fun with close to 70 participants and 20 project submissions! There were workshops on Java, Python, Cybersecurity, and Web Development with a typeracer competition to finish things off.
+                            Held virtually on December 18th, 2021. There were close to 70 participants and 20 project submissions! Workshops on Java, Python, Cybersecurity, and Web Development were held, with a TypeRacer competition to conclude <i>(which Aryan won all seven rounds of)</i>.
                             </div>
                         </div>
                     </div>
@@ -86,7 +87,20 @@ export default function Timeline() {
                         <div className={styles.leftContainer}>
                             <header className={styles.cardHeader}>QuHacks 2017</header>
                             <div className={styles.textContainer}>
-                                The second QuHacks event! Held at UMBC on December 9th, 2017. This event is 6 years old at this point, so this sentence is just here to pad some space since we couldn't find any more info for this QuHacks as well...
+                                The second QuHacks event! Held at UMBC on December 9th, 2017. Not much info could be found out about this event at the time of building our timeline -- sorry about that :(
+                            </div>
+                        </div>
+                    </div>
+
+                    <div className={styles.timelineCard}>
+                        <div className={styles.imgContainer}>
+                            <img src="timeline/pic-2016.jpg" />
+                        </div>
+                        <div className={styles.leftContainer}>
+                            <header className={styles.cardHeader}>QuHacks 2016</header>
+                            <div className={styles.textContainer}>
+                                The first ever QuHacks, held at the Johns Hopkins University Applied Physics Laboratory on October 30, 2016!
+                                There were nearly 35 attendees, a crash course in Java, and novice/advanced problemsets for everyone to have a great time.
                             </div>
                         </div>
                     </div>
