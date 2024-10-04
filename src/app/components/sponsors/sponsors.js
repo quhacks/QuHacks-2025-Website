@@ -50,6 +50,9 @@ export default function Sponsors() {
                     <a rel="noreferrer noopener" target='_blank' href="https://gen.xyz/">
                         <img style={{backgroundColor: "white", border: "10px solid white", borderRadius: "8px"}} src="sponsors/xyz.png" />
                     </a>
+                    <a rel="noreferrer noopener" target='_blank' href="https://www.wegmans.com/">
+                        <img style={{backgroundColor: "white", border: "10px solid white", borderRadius: "8px"}} src="sponsors/wegmans.jpg" />
+                    </a>
                 </div>
             </div>
 
