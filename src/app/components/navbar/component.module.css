@@ -144,9 +144,14 @@
     50% { opacity: 100; }
 }
 
+/* .name {
+    font-family: var(--nc-font-mono);
+} */
+
 .name>span {
     color: var(--text-accent);
-    margin-right: 0.5rem
+    margin-right: 0.5rem;
+    /* font-family: var(--nc-font-mono); */
 }
 
 .name:hover {

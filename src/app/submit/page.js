@@ -161,7 +161,7 @@ export default function SubmissionFormPage() {
                         <h2>Description</h2>
                         <textarea className={styles.textarea} id="description"></textarea><br></br><br></br>
                         <h2>Screenshot of Project</h2>
-                        <input type="file" id="screenshot" accept="image/png, image/jpeg" /><br></br><br></br>
+                        <input type="file" id="screenshot" accept="image/png, image/jpeg" className={styles.screenshotInput} /><br></br><br></br>
                         <h2>Select Project Tracks Below: </h2>
                         <input className={styles.checkbox} id="mathCheck" type="checkbox" />
                         <label >  Math</label><br></br>
@@ -170,7 +170,7 @@ export default function SubmissionFormPage() {
                         <input className={styles.checkbox} id="gameCheck" type="checkbox" />
                         <label >  Game</label>
                         <br></br><br></br>
-                        <select value={level} onChange={(e) => setLevel(e.target.value)}>
+                        <select value={level} onChange={(e) => setLevel(e.target.value)} className={styles.levelSelect}>
                             <option value={"advanced"}>Advanced</option>
                             <option value={"beginner"}>Beginner</option>
                         </select>

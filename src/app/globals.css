@@ -1,26 +1,26 @@
 :root {
   --background: #000000;
-  --background-darker: #3A0CA3;
+  --background-darker: #3a0ca3;
   --text: white;
-  --title-glow: #4859EF;
-  --text-accent: #4CC9F0;
+  --title-glow: #7827db;
+  --text-accent: #e04cf0;
   --image-hue-overlay: rgba(37, 16, 100, 0.476);
   /* --dark-blue-accent: #00333f; */
   --scroll-primary: rgb(15, 15, 16);
   --scroll-accent: #ab9205;
-  --background-accent: #3F37C9;
+  --background-accent: #b712eb;
   /* Some potentially useful colors if needed */
-  --nc-font-sans: 'Fira Code', monospace;
-  --nc-font-mono: 'Fira Code', monospace;
-  --nc-tx-1: #FFFFFF;
-  --nc-tx-2: #EEEEEE;
+  --nc-font-sans: "Fira Code", monospace;
+  --nc-font-mono: "Fira Code", monospace;
+  --nc-tx-1: #ffffff;
+  --nc-tx-2: #eeeeee;
   --nc-bg-1: #000000;
   --nc-bg-2: #002700;
   --nc-bg-3: #005800;
-  --nc-lk-1: #00FF00;
+  --nc-lk-1: #00ff00;
   --nc-lk-2: #00c200;
   --nc-lk-tx: #000000;
-  --nc-ac-1: #00FF00;
+  --nc-ac-1: #00ff00;
   --nc-ac-tx: #000000;
 }
 
@@ -80,7 +80,8 @@ select {
   font-family: monospace;
   font-size: 1rem;
 }
-.link, a {
+.link,
+a {
   text-decoration: none;
   color: var(--text-accent);
   transition: 0.1s;
@@ -88,7 +89,8 @@ select {
   font-family: monospace;
 }
 
-.link:hover, a:hover {
+.link:hover,
+a:hover {
   cursor: pointer;
   background-color: var(--title-glow);
   color: white;
@@ -101,7 +103,7 @@ select {
 }
 
 button:disabled {
-  cursor:not-allowed;
+  cursor: not-allowed;
   opacity: 50%;
   pointer-events: none;
 }
@@ -150,7 +152,12 @@ button:disabled {
   color: var(--background-darker);
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   font-family: monospace;
   margin-bottom: 0.5rem;
 }
@@ -160,7 +167,7 @@ h1 {
 }
 
 p {
-  margin-bottom: 0.5rem;;
+  margin-bottom: 0.5rem;
 }
 
 hr {
@@ -176,7 +183,7 @@ hr {
 }
 
 @media screen and (max-width: 750px) {
- .page {
-  padding-top: 3rem;
- }
+  .page {
+    padding-top: 3rem;
+  }
 }

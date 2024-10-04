@@ -78,6 +78,16 @@
 
 .searchBox {
     flex: 1;
+    color: white;
+    font-family: monospace;
+}
+
+.searchBox::placeholder {
+    color: white;
+}
+
+.trackSelect {
+    font-family: monospace;
 }
 
 .emptyContainer {
