@@ -21,7 +21,7 @@ export default function Sponsors() {
                 <h1 className={styles.tiername}>Silver</h1>
                 <div className={styles.row}>
                     <a rel="noreferrer noopener" target='_blank' href="https://www.wolfram.com/">
-                        <img style={{backgroundColor: "white", border: "10px solid white", borderRadius: "8px"}} src="sponsors/wolfram.png" />
+                        <img style={{backgroundColor: "white", border: "10px solid white", borderRadius: "8px", maxHeight: "7.7rem"}} src="sponsors/wolfram.png" />
                     </a>
                     <a rel="noreferrer noopener" target='_blank' href="https://www.mathworks.com/">
                         <img style={{backgroundColor: "white", border: "10px solid white", borderRadius: "8px"}} src="sponsors/mathworks.png" />

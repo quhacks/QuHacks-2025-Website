@@ -89,6 +89,10 @@
     border-left: 0.5rem solid lightgreen;
 }
 
+.bronze > .row > a > img, .mediaPartner > .row > a > img {
+    max-height: 7rem;
+}
+
 
 .tier > h1 {
     font-size: 2rem;
