@@ -61,7 +61,7 @@ export default function Home() {
             <p>December 14th, 2024 @ Johns Hopkins APL (Building 201)</p>
             <div className={styles.btngroup}>
               {/* Logic for register: onClick={() => setShowRegisterModal(true)} */}
-              <button className='btn-primary' disabled={true}>Register!</button>
+              <button className='btn-primary' disabled={false} onClick={() => {window.open("https://forms.gle/ftydZZZT9pJXh1KV7", '_blank', 'noopener, noreferrer');}}>Register!</button>
               <div className={styles.secondaryBtns}>
                 <button className={`btn-secondary ${styles.submitBtn}`} onClick={() => router.push("/submit")} disabled={!submbissionsOpen}>Submit Your Project!</button>
                 <button className={`btn-secondary ${styles.galleryBtn}`} onClick={() => router.push("/gallery")} disabled={!galleryOpen}>View Gallery &gt;</button>
