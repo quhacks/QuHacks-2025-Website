@@ -181,6 +181,44 @@
     stroke-width: 2px;
 }
 
+.tabContainer {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    gap: 0.5rem;
+    margin-top: 10px;
+}
+
+.tabButton {
+    font-family: var(--nc-font-mono);
+    font-size: 1rem;
+    padding: 0.5rem 1rem;
+    color: var(--text);
+    background-color: transparent;
+    border: 2px solid var(--text-accent);
+    cursor: pointer;
+    transition: background-color 0.2s, color 0.2s, border-color 0.2s;
+}
+
+.tabButton:hover {
+    background-color: var(--title-glow);
+    color: var(--background);
+    border-color: var(--title-glow);
+}
+
+.tabButton:focus {
+    outline: none;
+    background-color: var(--text-accent);
+    color: var(--background);
+    border-color: var(--text-accent);
+}
+
+.tabButton.active {
+    background-color: var(--text-accent);
+    color: var(--background);
+    border-color: var(--text-accent);
+}
+
 @media screen and (max-width: 850px) {
     .galleryContainer {
         flex-direction: column;

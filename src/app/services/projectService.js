@@ -25,7 +25,7 @@ function submitProject(project, success) {
 
     let projectID = uuid();
 
-    const projectDoc = doc(db, "projects/"+projectID);
+    const projectDoc = doc(db, "projects-2025/"+projectID);
     const screenshotRef = ref(fileDB, projectID+"-"+file.name);
 
     new Compressor(file, {
@@ -58,8 +58,10 @@ async function isGalleryOpen() {
     return (await getDoc(doc(db, "config/gallery"))).data().open;
 }
 
-async function getProjects() {
-    return await getDocs(collection(db, "projects"));
+async function getProjects(year) {
+    const collectionPath = year === 2024 ? "projects" : `projects-${year}`;
+    const snapshot = await getDocs(collection(db, collectionPath));
+    return snapshot.docs.map(doc => ({ id: doc.id, ...doc.data() }));
 }
 
 export {submitProject, areSubmissionsOpen, getProjects, isGalleryOpen};
