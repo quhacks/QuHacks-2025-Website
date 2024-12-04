@@ -8,6 +8,15 @@ export default function Sponsors() {
                 <p>Interested in sponsoring QuHacks this year? <a href="mailto:info@quhacks.tech">Contact us!</a></p>
             </div>
 
+            <div className={`${styles.tier} ${styles.platinum}`}>
+                <h1 className={styles.tiername}>Platinum</h1>
+                <div className={styles.row}>
+                    <a rel="noreferrer noopener" target='_blank' href="https://mdspace.org">
+                        <img style={{backgroundColor: "white", border: "10px solid white", borderRadius: "8px"}} src="sponsors/msbr.png" />
+                    </a>
+                </div>
+            </div>
+
             <div className={`${styles.tier} ${styles.gold}`}>
                 <h1 className={styles.tiername}>Gold</h1>
                 <div className={styles.row}>
@@ -53,14 +62,23 @@ export default function Sponsors() {
                     <a rel="noreferrer noopener" target='_blank' href="https://www.wegmans.com/">
                         <img style={{backgroundColor: "white", border: "10px solid white", borderRadius: "8px"}} src="sponsors/wegmans.jpg" />
                     </a>
+                    <a rel="noreferrer noopener" target='_blank' href="http://chipotle.com">
+                        <img style={{backgroundColor: "white", border: "10px solid white", borderRadius: "8px"}} src="sponsors/chipotle.png" />
+                    </a>
                 </div>
             </div>
 
             <div className={`${styles.tier} ${styles.mediaPartner}`}>
-                <h1 className={styles.tiername}>Media Partner</h1>
+                <h1 className={styles.tiername}>Partner</h1>
                 <div className={styles.row}>
                     <a rel="noreferrer noopener" target='_blank' href="https://devitjobs.com/">
                         <img style={{backgroundColor: "white", border: "10px solid white", borderRadius: "8px"}} src="sponsors/devitjobs.png" />
+                    </a>
+                    <a rel="noreferrer noopener" target='_blank' href="http://jumbojumbocafe.com">
+                        <img style={{backgroundColor: "white", border: "10px solid white", borderRadius: "8px"}} src="sponsors/jumbojumbo.png" />
+                    </a>
+                    <a rel="noreferrer noopener" target='_blank' href="https://klinn.works">
+                        <img style={{backgroundColor: "white", border: "10px solid white", borderRadius: "8px"}} src="sponsors/klinn.png" />
                     </a>
                 </div>
             </div>
