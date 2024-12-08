@@ -31,7 +31,7 @@ export default function ScheduleSection() {
                     </tr>
                     <tr>
                         <td className={styles.td}>10:30 AM - 11:00 AM</td>
-                        <td className={styles.td}>Find a Team + Brainstorming Session</td>
+                        <td className={styles.td}>Team-Finding Session</td>
                         <td className={styles.td}></td>
                         <td className={styles.td}></td>
                     </tr>
