@@ -50,8 +50,8 @@ export default function ScheduleSection() {
                     <tr>
                         <td className={styles.td}>12:00 PM - 1:00 PM</td>
                         <td className={styles.td}></td>
-                        <td className={styles.td}>Getting Started with Web Dev</td>
                         <td className={styles.td}></td>
+                        <td className={styles.td}>Getting Started with Web Dev</td>
                     </tr>
                     <tr>
                         <td className={styles.td}>1:00 PM - 2:00 PM</td>
@@ -62,8 +62,8 @@ export default function ScheduleSection() {
                     <tr>
                         <td className={styles.td}>3:00 PM - 3:30 PM</td>
                         <td className={styles.td}></td>
-                        <td className={styles.td}>Building a Chess AI</td>
                         <td className={styles.td}></td>
+                        <td className={styles.td}>Building a Chess AI</td>
                     </tr>
                     <tr>
                     <td className={styles.td}>3:30 PM - 4:00 PM</td>
