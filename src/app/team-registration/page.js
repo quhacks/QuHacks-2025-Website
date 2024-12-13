@@ -118,7 +118,7 @@ export default function TeamRegistrationPage() {
                         />
                     </div>
                     <button className={styles.btnPrimary} type="submit">Register</button>
-                    <p className={styles.formAsterisk}>*Required for both email & password sign up and Google & GitHub sign up</p>
+                    <p className={styles.formAsterisk}>*Required for both email + password sign up and Google sign up</p>
                     <hr className={styles.hr} />
                     <div>
                         <p>Alternatively, sign up with...</p>
