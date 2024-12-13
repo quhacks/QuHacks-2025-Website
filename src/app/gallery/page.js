@@ -140,6 +140,7 @@ export default function GalleryPage() {
                         <option value="game">Game</option>
                         <option value="beginner">Beginner</option>
                         <option value="advanced">Advanced</option>
+                        <option value="individual">Individual</option>
                     </select>
                 </div>
                 <div className={styles.tabContainer}>
@@ -152,6 +153,7 @@ export default function GalleryPage() {
                     <button
                         className={`${styles.tabButton} ${activeTab === "2025" ? styles.active : ""}`}
                         onClick={() => setActiveTab("2025")}
+                        disabled={(!projects2025 || projects2025.filter((proj) => proj.public).length === 0)}
                     >
                         2025
                     </button>

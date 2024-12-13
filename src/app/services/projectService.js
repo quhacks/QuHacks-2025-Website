@@ -1,5 +1,5 @@
 import { db, fileDB } from "../firebase/config";
-import { getFirestore, getDoc, getDocs, updateDoc, doc, setDoc, collection } from '@firebase/firestore/lite';
+import { getDoc, getDocs, doc, setDoc, collection } from 'firebase/firestore';
 import { getDownloadURL, ref, uploadBytes } from "firebase/storage";
 import Compressor from 'compressorjs';
 
@@ -51,11 +51,11 @@ function uuid() {
   }
 
 async function areSubmissionsOpen() {
-    return (await getDoc(doc(db, "config/form"))).data();
+    return (await getDoc(doc(db, "config", "form"))).data();
 }
 
 async function isGalleryOpen() {
-    return (await getDoc(doc(db, "config/gallery"))).data().open;
+    return (await getDoc(doc(db, "config", "gallery"))).data().open;
 }
 
 async function getProjects(year) {

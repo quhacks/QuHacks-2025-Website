@@ -1,13 +1,11 @@
 "use client"
 import Image from 'next/image'
 import styles from './page.module.css'
-import Link from 'next/link';
 import AboutSection from './components/about/about';
 import ScheduleSection from './components/schedule/schedule';
 import TeamSection from './components/team/team';
 import Faq from './components/faq/faq';
 import Sponsors from './components/sponsors/sponsors';
-import { db } from './firebase/config';
 import { useEffect, useState } from 'react';
 import { areSubmissionsOpen, isGalleryOpen } from './services/projectService';
 import { useRouter } from 'next/navigation';
@@ -61,9 +59,9 @@ export default function Home() {
             <p>December 14th, 2024 @ Johns Hopkins APL (Building 201)</p>
             <div className={styles.btngroup}>
               {/* Logic for register: onClick={() => setShowRegisterModal(true)} */}
-              <button className='btn-primary' disabled={false} onClick={() => {window.open("https://forms.gle/ftydZZZT9pJXh1KV7", '_blank', 'noopener, noreferrer');}}>Register!</button>
+              <button className='btn-primary' disabled={false} onClick={() => {window.open("https://forms.gle/ftydZZZT9pJXh1KV7", '_blank', 'noopener, noreferrer');}}>Register To Attend!</button>
               <div className={styles.secondaryBtns}>
-                <button className={`btn-secondary ${styles.submitBtn}`} onClick={() => router.push("/submit")} disabled={!submbissionsOpen}>Submit Your Project!</button>
+                <button className={`btn-secondary ${styles.submitBtn}`} onClick={() => router.push("/submit")} disabled={!submbissionsOpen}>Register Your Team!</button>
                 <button className={`btn-secondary ${styles.galleryBtn}`} onClick={() => router.push("/gallery")} disabled={!galleryOpen}>View Gallery &gt;</button>
               </div>
             </div>

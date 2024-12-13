@@ -10,7 +10,6 @@ export default function SubmissionFormPage() {
     const [members, setMembers] = useState([]);
     const [isHovered, setIsHovered] = useState(false);
     const [memberId, setId] = useState(0);
-    const [level, setLevel] = useState("advanced")
     const [pending, setPending] = useState(false)
 
     const toastProps = (success) => ({
@@ -55,15 +54,18 @@ export default function SubmissionFormPage() {
         let builtWith = document.getElementById("builtWith").value;
         let publicProject = document.getElementById("publicCheck").checked;
 
-        let tracks = [level];
-        if (document.getElementById("mathCheck").checked) {
-            tracks.push("Math");
-        }
+        let tracks = [];
+
         if (document.getElementById("aiCheck").checked) {
             tracks.push("AI");
         }
-        if (document.getElementById("gameCheck").checked) {
-            tracks.push("Game");
+
+        if (document.getElementById("beginnerCheck").checked) {
+            tracks.push("beginner");
+        }
+
+        if (tracks.length == 1) {
+            tracks.push("individual");
         }
 
 
@@ -163,17 +165,10 @@ export default function SubmissionFormPage() {
                         <h2>Screenshot of Project</h2>
                         <input type="file" id="screenshot" accept="image/png, image/jpeg" className={styles.screenshotInput} /><br></br><br></br>
                         <h2>Select Project Tracks Below: </h2>
-                        <input className={styles.checkbox} id="mathCheck" type="checkbox" />
-                        <label >  Math</label><br></br>
                         <input className={styles.checkbox} id="aiCheck" type="checkbox" />
                         <label >  AI</label><br></br>
-                        <input className={styles.checkbox} id="gameCheck" type="checkbox" />
-                        <label >  Game</label>
-                        <br></br><br></br>
-                        <select value={level} onChange={(e) => setLevel(e.target.value)} className={styles.levelSelect}>
-                            <option value={"advanced"}>Advanced</option>
-                            <option value={"beginner"}>Beginner</option>
-                        </select>
+                        <input className={styles.checkbox} id="beginnerCheck" type="checkbox" />
+                        <label >  Beginner</label>
                         <br></br><br></br>
                         <h2>Link to Project GitHub (optional) </h2>
                         <input className={styles.input} id="github"></input><br></br><br></br>
