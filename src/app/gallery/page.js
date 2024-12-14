@@ -11,7 +11,7 @@ export default function GalleryPage() {
     const [emptyMsg, setEmptyMsg] = useState("Loading Gallery...");
     const [query, setQuery] = useState("");
     const [track, setTrack] = useState("all");
-    const [activeTab, setActiveTab] = useState("2024");
+    const [activeTab, setActiveTab] = useState("2025");
 
     // Modal state
     const [showProjectModal, setShowProjectModal] = useState(false);
