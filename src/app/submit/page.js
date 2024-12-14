@@ -54,7 +54,7 @@ export default function SubmissionFormPage() {
         let builtWith = document.getElementById("builtWith").value;
         let publicProject = document.getElementById("publicCheck").checked;
 
-        let tracks = [];
+        let tracks = ["overall"];
 
         if (document.getElementById("aiCheck").checked) {
             tracks.push("AI");
@@ -64,23 +64,26 @@ export default function SubmissionFormPage() {
             tracks.push("beginner");
         }
 
-        if (tracks.length == 1) {
-            tracks.push("individual");
-        }
-
-
         if (projectName.trim().length < 1) {
             return [false, "Please enter your project's name."];
         }
+
         if (members.length < 1) {
             return [false, "Please list all team members."];
         }
+
         if (desc.trim().length < 1) {
             return [false, "Please include a description of your project."];
         }
+
         if (!screenshot) {
             return [false, "Please include at least one screenshot of your project."];
         }
+
+        if (members.length == 1) {
+            tracks.push("individual");
+        }
+
         if (tracks.length < 1) {
             return [false, "Select at least one track."];
         }
