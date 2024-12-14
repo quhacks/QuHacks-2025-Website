@@ -61,7 +61,7 @@ export default function Home() {
               {/* Logic for register: onClick={() => setShowRegisterModal(true)} */}
               <button className='btn-primary' disabled={false} onClick={() => {window.open("https://forms.gle/ftydZZZT9pJXh1KV7", '_blank', 'noopener, noreferrer');}}>Register To Attend!</button>
               <div className={styles.secondaryBtns}>
-                <button className={`btn-secondary ${styles.submitBtn}`} onClick={() => router.push("/submit")} disabled={!submbissionsOpen}>Register Your Team!</button>
+                <button className={`btn-secondary ${styles.submitBtn}`} onClick={() => router.push("/team-registration")} disabled={!submbissionsOpen}>Register Your Team!</button>
                 <button className={`btn-secondary ${styles.galleryBtn}`} onClick={() => router.push("/gallery")} disabled={!galleryOpen}>View Gallery &gt;</button>
               </div>
             </div>
