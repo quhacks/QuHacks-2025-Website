@@ -80,6 +80,9 @@ export default function Sponsors() {
                     <a rel="noreferrer noopener" target='_blank' href="https://klinn.works">
                         <img style={{backgroundColor: "white", border: "10px solid white", borderRadius: "8px"}} src="sponsors/klinn.png" />
                     </a>
+                    <a rel="noreferrer noopener" target='_blank' href="https://chspyoneers.com/">
+                        <img style={{backgroundColor: "white", border: "10px solid white", borderRadius: "8px"}} src="sponsors/pyoneers.png" />
+                    </a>
                 </div>
             </div>
         </div>
